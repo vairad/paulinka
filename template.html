@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Paulina louka">
+    <meta name="author" content="Carlos Alvarez - Alvarez.is - blacktie.co - template autor">
+    <meta name="author" content="Radek Vais - content autor">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Paulina louka</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link href="assets/css/animate-custom.css" rel="stylesheet">
+    <link href="assets/css/color.css" rel="stylesheet">
+
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+
+
+  	<div id="navbar-main">
+
+      <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+	  <a href="#" class="navbar-brand hidden-sm hidden-md hidden-lg">veřejné tábořiště <strong>{{ name }}</strong></a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon icon-menu" style="font-size:30px; color:#4cae4c;"></span>
+          </button>
+          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="icon icon-home" style="font-size:18px; color:#4cae4c;"></span></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#home" class="smoothScroll" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.intro }}</a></li>
+			<li> <a href="#contact" class="smoothScroll" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.contact }}</a></li>
+
+			<li> <a href="#srub" class="smoothScroll" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.cottage }}</a></li>
+			<li> <a href="#louka" class="smoothScroll" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.meadow }}</a></li>
+
+			<li> <a href="#ceny" class="smoothScroll" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.price }}</a></li>
+
+			<li> <a href="#okoli" class="smoothScroll" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.around }}</a></li>
+			<li> <a href="#about" class="smoothScroll" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.about }}</a></li>
+
+	  </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    </div>
+
+
+
+		<!-- ==== HEADERWRAP ==== -->
+	    <div id="headerwrap" id="home" name="home">
+			<header class="clearfix">
+	  		 		<h1>{{ name }}</h1>
+	  		 		<p>{{ subheader }}</p>
+	  		</header>
+	    </div><!-- /headerwrap -->
+
+		<!-- ==== GREYWRAP ==== -->
+		<div id="greywrap">
+			<div class="row">
+				<div class="col-lg-4 callout">
+					<span class="icon icon-home"></span>
+					<h2>{{intro.h1}}</h2>
+					<p>{{intro.t1}}</p>
+				</div><!-- col-lg-4 -->
+
+				<div class="col-lg-4 callout">
+					<span class="icon icon-eye"></span>
+					<h2>{{intro.h2}} </h2>
+					<p>{{intro.t2}}</p>
+				</div><!-- col-lg-4 -->
+
+				<div class="col-lg-4 callout">
+					<span class="icon icon-heart"></span>
+					<h2>{{intro.h3}}</h2>
+					<p>{{intro.t3}}</p>
+				</div><!-- col-lg-4 -->
+			</div><!-- row -->
+		</div><!-- greywrap -->
+
+<!-- =================================================== O NÁS ==================================================================== -->
+		<div class="container" id="about" name="about">
+			<div class="row white">
+			<br>
+				<h1 class="centered">{{about.h}}</h1>
+				<hr>
+
+				<div class="col-lg-6">
+					<p>{{ about.t1 }}</p>
+				</div><!-- col-lg-6 -->
+
+				<div class="col-lg-6">
+					<p>{{ about.t2}}</p>
+				</div><!-- col-lg-6 -->
+
+			</div><!-- row -->
+		</div><!-- container -->
+
+<!-- =================================================== SECTION DIVIDER1 ==================================================================== -->
+		<section class="section-divider textdivider divider1">
+			<div class="container">
+				<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+			</div><!-- container -->
+		</section><!-- section -->
+<!-- =================================================== SRUB ==================================================================== -->
+		<div class="container" id="srub" name="srub">
+			<br>
+			<br>
+			<div class="row">
+				<h2 class="centered">{{ cottage.h }}</h2>
+				<hr>
+				<br>
+				<div class="col-lg-offset-2 col-lg-8">
+					<p>{{ cottage.t1 }}</p>
+					<p>{{ cottage.t2 }}</p>
+				</div><!-- col-lg -->
+
+			</div><!-- row -->
+
+			<div class="row">
+				<div class="container col-md-offset-2 col-md-8">
+					<div class="col-md-6">
+				    		<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/srub/srub.jpg" alt="Fotka exteriéru">
+							<figcaption>
+								<h5>{{ cottage.out }}</h5>
+								<a data-toggle="modal" href="#venku" class="btn btn-primary btn-lg">{{ photo }}</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    			</div><!-- /grid-mask -->
+					</div><!-- /col -->
+					<div class="col-md-6">
+			    		<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/srub/srub-uvnitr.jpg" alt="Fotka interiéru">
+							<figcaption>
+								<h5>{{ cottage.in }}</h5>
+								<a data-toggle="modal" href="#uvnitr" class="btn btn-primary btn-lg">{{ photo }}</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+					</div><!-- /grid-mask -->
+					</div><!-- /col -->
+				</div> <!-- container -->
+			</div><!-- row -->
+			<div class="container">
+    			<hr>
+			<div id="calendar">
+			</div>
+			</div>
+
+		</div><!-- container -->
+
+ <!-- MODAL windows for gallerys -->
+
+  <div class="modal fade" id="uvnitr" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">{{ cottage.in }}</h4>
+        </div>
+        <div class="modal-body">
+          <p><img class="img-responsive" src="assets/img/srub/uvnitr0.jpg" alt="Fotka interier"></p>
+          <p><img class="img-responsive" src="assets/img/srub/uvnitr1.jpg" alt="Fotka interier"></p>
+          <p><img class="img-responsive" src="assets/img/srub/uvnitr2.jpg" alt="Fotka interier"></p>
+          <p><img class="img-responsive" src="assets/img/srub/uvnitr3.jpg" alt="Fotka interier"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">{{ close }}</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <div class="modal fade" id="venku" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">{{ cottage.out }}</h4>
+        </div>
+        <div class="modal-body">
+          <p><img class="img-responsive" src="assets/img/srub/zvenku0.jpg" alt="Fotka exterier"></p>
+          <p><img class="img-responsive" src="assets/img/srub/zvenku1.jpg" alt="Fotka exterier"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">{{ close }}</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+<!-- =================================================== SECTION DIVIDER2 ==================================================================== -->
+		<section class="section-divider textdivider divider2">
+			<div class="container">
+				<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+			</div><!-- container -->
+		</section><!-- section -->
+
+<!-- =================================================== LOUKA ==================================================================== -->
+		<div class="container" id="louka" name="louka">
+			<br>
+			<br>
+			<div class="row">
+				<h2 class="centered">{{ meadow.h }}</h2>
+				<hr>
+				<br>
+				<div class="col-lg-offset-2 col-lg-8">
+					<p>{{ meadow.t1 }}</p>
+					<p>{{ meadow.t2 }}</p>
+					<p>{{ meadow.t3 }}</p>
+				</div><!-- col-lg -->
+
+			</div><!-- row -->
+
+			<div class="row">
+				<div class="container col-md-offset-1 col-md-8">
+					<div class="col-md-offset-4 col-md-6">
+			    		<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/louka/louka.jpg" alt="Fotka louky">
+							<figcaption>
+								<h5> {{ meadow.title }}</h5>
+								<a data-toggle="modal" href="#louka-win" class="btn btn-primary btn-lg">{{ photo }}</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+					</div><!-- /grid-mask -->
+					</div><!-- /col -->
+				</div> <!-- container -->
+			</div><!-- row -->
+		</div><!-- container -->
+
+ <!-- MODAL windows for gallerys -->
+
+  <div class="modal fade" id="louka-win" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">{{ meadow.title }}</h4>
+        </div>
+        <div class="modal-body">
+          <p><img class="img-responsive" src="assets/img/louka/0.jpg" alt="Fotka louky"></p>
+          <p><img class="img-responsive" src="assets/img/louka/1.jpg" alt="Fotka louky"></p>
+          <p><img class="img-responsive" src="assets/img/louka/2.jpg" alt="Fotka louky"></p>
+          <p><img class="img-responsive" src="assets/img/louka/3.jpg" alt="Fotka louky"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">{{ close }}</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+<!-- =================================================== SECTION DIVIDER3 ==================================================================== -->
+		<br/>
+		<section class="section-divider textdivider divider3">
+			<div class="container">
+				<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+			</div><!-- container -->
+		</section><!-- section -->
+
+
+<!-- =================================================== OKOLÍ ==================================================================== -->
+		<div class="container" id="okoli" name="okoli">
+		<br>
+			<div class="row">
+				<br>
+				<h1 class="centered">{{ around.h }}</h1>
+				<hr>
+				<br>
+				<br>
+			</div><!-- /row -->
+			<div class="container">
+			<div class="row">
+
+<!-- okoli Obrázek kašperk ... http://www.panoramio.com/photo/48073683 -->
+				<div class="col-md-4 ">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/okoli/kasperk.jpg" alt="Obrázek hradu Kašperk">
+							<figcaption>
+								<h5>Kašperk</h5>
+								<a data-toggle="modal" href="#kasperk" class="btn btn-primary btn-lg">Více...</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+
+
+				</div><!-- /grid-mask -->
+				</div><!-- /col -->
+
+
+						 <!-- MODAL SHOW THE okoli IMAGE. In this demo, all links point to this modal. You should create
+						      a modal for each of your projects. -->
+
+						  <div class="modal fade" id="kasperk" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Hrad Kašperk</h4>
+						        </div>
+						        <div class="modal-body">
+						          <p><img class="img-responsive" src="assets/img/okoli/kasperk_olej.jpeg" alt="Umělecká představa původní podoby hradu."></p>
+						          <p>Kašperk (německy Karlsberg) je hrad v Šumavském podhůří poblíž města Kašperské Hory v okrese Klatovy. Nachází se zhruba 2,5 km severoseverovýchodně od Kašperských Hor. Je chráněn jako kulturní památka České republiky.</p>
+						          <p><b><a href="http://www.kasperk.cz/" target="_blank">Nevštivte jejich web</a></b></p>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Zavřít</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+
+
+<!-- okoli Návštěvnické centrum SRNÍ -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/okoli/vlk.jpg" alt="">
+							<figcaption>
+								<h5>Výběh s vlky</h5>
+								<a data-toggle="modal" href="#srni" class="btn btn-primary btn-lg">Více</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+
+
+						 <!-- MODAL SHOW THE okoli IMAGE. In this demo, all links point to this modal. You should create
+						      a modal for each of your projects. -->
+
+						  <div class="modal fade" id="srni" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Návštěvnické centrum Srní</h4>
+						        </div>
+						        <div class="modal-body">
+							  <p><img class="img-responsive" src="assets/img/okoli/nc_srni.jpg" alt="Umělecká představa původní podoby hradu."></p>
+						          <p>Pasivní dům, kde je energie získávána z obnovitelných zdrojů, je věnován expozici šelem. Jsou zde ovládací kamery, kde návštěvníci mohou sledovat vlky. Výběh s vlky má rozlohu 3 ha a uprostřed něj vede dlouhá lávka, která je vyvýšená 3 – 4 m na terénem. Vede zde i naučná stezka. </p>
+						          <p><b><a href="http://www.sumava.net/icsrni/vylety.asp" target="_blank">Nevštivte jejich web</a></b></p>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Zavřít</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+
+<!-- okoli Turnerova chata -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/okoli/turnerova-chata.jpg" alt="Turnerova chata">
+							<figcaption>
+								<h5>Turnerova chata</h5>
+								<a data-toggle="modal" href="#turnerka" class="btn btn-primary btn-lg">Více</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+			</div><!-- /row -->
+
+
+						 <!-- MODAL SHOW THE okoli IMAGE. In this demo, all links point to this modal. You should create
+						      a modal for each of your projects. -->
+
+						  <div class="modal fade" id="turnerka" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Turnerova chata</h4>
+						        </div>
+						        <div class="modal-body">
+							  <p><img class="img-responsive" src="assets/img/okoli/turnerova-chata.jpg" alt="Turnerova chata"></p>
+						          <p>Turnerova chata je jediná veřejně přístupná chata v I. zóně NP Šumava. Nachází se na břehu řeky Vydry. Kolem chaty vede naučná stezka Povydří, která je dlouhá 7,5 km. Cesta k chatě vede buď z Čeňkovy Pily (mírné stoupání), nebo z Antýglu (pozvolné klesání). Na Turnerově chatě se lze ubytovat nebo jen občerstvit. Stezka je jen pro pěší, platí zde zákaz jízdy cyklistům i autům. Přibližně 1 km od Turnerovy chaty směrem na Antýgl stojí od roku 2012 nově postavený Klostermannův most. Tento most byl postaven na místě, kde již dříve stával most, který spojoval obě strany řeky Vydry. Kousek od mostu stojí zřetelné zbytky Hálkovy chaty. Ta byla jedinou turistickou chatou před rokem 1938. (http://www.sumava.net) </p>
+						          <p><b><a href="http://www.turnerovachata.cz/" target="_blank">Nevštivte jejich web</a></b></p>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Zavřít</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+
+
+
+<!-- okoli Vchynsko-tetovsky kanal -->
+			<div class="row">
+				<div class="col-md-4 ">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/okoli/kanal.jpg" alt="Plavební kanál">
+							<figcaption>
+								<h5>Plavební kanál</h5>
+								<a data-toggle="modal" href="#kanal" class="btn btn-primary btn-lg">Více</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+
+				 <!-- MODAL SHOW THE okoli IMAGE. In this demo, all links point to this modal. You should create
+						      a modal for each of your projects. -->
+
+						  <div class="modal fade" id="kanal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Vchynicko–Tetovský plavební kanál</h4>
+						        </div>
+						        <div class="modal-body">
+							  <p><img class="img-responsive" src="assets/img/okoli/mapa-kanal.jpg" alt="Mapa plavebního kanálu."></p>
+						          <p>Kanál začíná u řeky Vydry pod bývalou dřevorubeckou osadou Vchynice – Tetov. Současným vlastníkem je Západočeská energetika a.s.. Toto vodní dílo vzniklo v letech 1799 - 1800 podle návrhu stavitele inženýra Josefa Rosenauera a byl vybudován k plavení dříví. Spojoval Vydru s Křemelnou, aby se obešel nesplavný úsek Vydry. Celý systém se sedmi vodními nádržemi umožňoval po splavnění větších přítoků Vydry dopravu dřeva z vysokých šumavských poloh do Otavy a dále do vnitrozemí. Od roku 1939 slouží část kanálu jako přivaděč vody pro hydroelektrárnu na Čeňkově Pile. Dodnes se zachovalo několik můstků s kamennou klenbou. Vchynicko - Tetovský kanál je technická památka. Začátek kanálu tvoří hradlový most zvaný „Rechle“.(www.npsumava.cz) </p>
+						          <p><b><a href="http://www.npsumava.cz/cz/1129/979/clanek/ns-vchynicko-tetovsky-plavebni-kanal/" target="_blank">Nevštivte jejich web</a></b></p>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Zavřít</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+
+<!-- okoli Kostel Nejsvětější Trojice na Srní -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/okoli/kostel.jpg" alt="">
+							<figcaption>
+								<h5>Kostel Srní</h5>
+								<a data-toggle="modal" href="#kostel" class="btn btn-primary btn-lg">Více</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+
+
+				 <!-- MODAL SHOW THE okoli IMAGE. In this demo, all links point to this modal. You should create
+						      a modal for each of your projects. -->
+
+						  <div class="modal fade" id="kostel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Kostel Nejsvětější Trojice na Srní</h4>
+						        </div>
+						        <div class="modal-body">
+							  <p><img class="img-responsive" src="assets/img/okoli/kostel-II.jpg" alt="Umělecká představa původní podoby hradu."></p>
+						          <p>Kostel stojí uprostřed vsi již od roku 1805, kde byl postaven místo původního dřevěného kostelíku z roku 1788. Na místě původního zchátralého kostelíku povolil sám císař František I. stavbu nového kamenného kostela. Základní kámen byl položen 1. května 1804 a stvavbu řídil zednický mistr Ferdinand Gruber ze Srní. Blízko kostela se nachází bývalý srnský hřbitov. Zde je pochováno mnoho příbuzných i postav z knih Karla Klostermanna. Na původním hřbitově stála i kaple postavena roku 1811. Pod její podlahou byli pohřbeni farář Heinrich z Pleinerů, rytíř von Drossau, Wenzel Prinz a Wenzel Pawlik. Poslední pohřeb se zde konal roku 1947, poté hřbitov zpustl a byl srovnán se zemí. O obnovení památky se postaralo Občanské sdružení Karel Klostermann. Obnovení proběhlo formou parku s několika obnovenými náhrobky, s pomníkem padlým v 1. světové válce a s novými prvky vyjadřující smíření národů (http://www.sumava.net) </p>
+						          <p><b><a href="http://www.sumava.net/icsrni/vylety.asp" target="_blank">Nevštivte jejich web</a></b></p>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Zavřít</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+
+
+<!-- okoli IMAGE 6 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/okoli/kaple.jpg" alt="">
+							<figcaption>
+								<h5>Hauswaldská kaple</h5>
+								<a data-toggle="modal" href="#kaple" class="btn btn-primary btn-lg">Více</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+			</div><!-- /row -->
+			<br>
+			<br>
+		</div><!-- /row -->
+	</div><!-- /container -->
+
+
+
+
+				 <!-- MODAL SHOW THE okoli IMAGE. In this demo, all links point to this modal. You should create
+						      a modal for each of your projects. -->
+
+						  <div class="modal fade" id="kaple" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Hauswaldská kaple</h4>
+						        </div>
+						        <div class="modal-body">
+							  <p><img class="img-responsive" src="assets/img/okoli/kaple-II.jpg" alt="Umělecká představa původní podoby hradu."></p>
+						          <p>Lesní kaple se nachází cca 2 km jižně od Srní v lese nedaleko Vchynicko – Tetovského kanálu. O tomto místě se vždy vyprávěli nevídané povídky. Docházelo zde k zázračným uzdravením a byly tu zde zachráněny dvě ženy od útoku medvěda. „ Dvě ženy šli jednoho dne na trávu a museli projít částí pralesa, kde jim přes cestu ležely spousty vyvrácených kmenů. Při přelézání jednoho takového kmene s hrůzou spatřily velkého hnědého medvěda, který divoce bručel, cenil zuby a přibližoval se k oběma vyděšeným ženám. V hrůze volali obě o pomoc Matku Boží a utíkaly pryč. Medvěd je pronásledoval, ale obě ženy se zachránily. Z vděčnosti pověsily na kmen stromu skleněný obrázek Sedmibolestné Matky Boží. U tohoto obrázku se pak událo ještě mnoho příhod a zázračných vyléčení.“ První kaple zde byla postavena 1820, která byla malá, a proto byla v roce 1860 vybudována nová a větší kaple. Stavba byla ale provedena tak špatně, že po 7 letech zchátrala. Byly konány peněžité sbírky až do roku 1901, kdy byl obnos dostatečný. Stavební místo daroval Josef Gruber ze Srní, stavební dříví kníže Schwarzenberg, ostatní materiál různí občané ze Srní. Na místě staré kaple byl postaven železný kříž. Kaple byla armádou srovnána se zemí v roce 1957. NP Šumava společně s Občanským sdružení Karel Klostermann obnovili toto místo. Slavnostní otevření proběhlo v roce 2006. Bývalé kaple dnes připomínají nově přiznané základy. Byl zde vybudovány koryta se zázračnou vodou až k poutnímu místu.  (http://www.sumava.net) </p>
+						          <p><b><a href="http://www.sumava.net/icsrni/vylety.asp" target="_blank">Nevštivte jejich web</a></b></p>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Zavřít</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+
+<!-- =================================================== SECTION DIVIDER4 ==================================================================== -->
+		<section class="section-divider textdivider divider4">
+			<div class="container">
+				<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+			</div><!-- container -->
+		</section><!-- section -->
+
+<!-- =================================================== CENY ==================================================================== -->
+		<div class="container" id="ceny" name="ceny">
+		<br>
+			<div class="row">
+				<br>
+				<h1 class="centered">{{ price.h }}</h1>
+				<hr>
+				<br>
+				<br>
+			</div><!-- /row -->
+
+			<div class="row">
+				<div class="col-lg-6 ceny-bg">
+					<div class="col-lg-12 ceny-content">
+						<h2>{{ price.coth }}</h2>
+						<p>{{ price.cott1 }}</p>
+						<p>{{ price.cott2 }}</p>
+						<p><a data-toggle="modal" href="#obsazenost" class="btn btn-success btn-lg icon icon-calendar">{{ cottage.full }}</a></p>
+
+
+				 <!-- modal show callendar-->
+
+						  <div class="modal fade" id="obsazenost" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">{{ cottage.full }}</h4>
+						        </div>
+						        <div class="modal-body">
+							  <iframe frameborder="0" height="400" scrolling="no" src="https://www.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=2&amp;color=%234CAE4C&amp;src=paulina.louka%40skaut.cz&amp;ctz=Europe%2FPrague" class="col-xs-12"></iframe>
+							<p>{{ price.cott3 }}</p>
+
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">{{ close }}</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+
+
+
+						<h4>duben - říjen</h4>
+						<p>100,- Kč srub/noc + 50Kč osoba/noc</p>
+						<h4>listopad - březen</h4>
+						<p>200,- Kč srub/noc + 50Kč osoba/noc</p>
+
+						<p><a href="cenik.pdf" class="icon icon-download" download> {{ price.dow }}</a></p>
+						<br>
+					</div>
+				</div><!-- /col -->
+
+				<div class="col-lg-6 ceny-bg">
+					<div class="col-lg-12 ceny-content">
+						<h2>{{ price.medh }}</h2>
+						<p> {{ price.medt1 }}</p>
+
+
+						<h4>Ceník</h4>
+
+
+						<table class="table table-striped">
+						  <!--<thead>
+						    <tr>
+
+						      <th>First Name</th>
+						      <th>Last Name</th>
+						      <th>Username</th>
+						    </tr>
+						  </thead> -->
+						  <tbody>
+						    <tr>
+						      <td>Stan</td>
+						      <td>50 Kč</td>
+						    </tr>
+						    <tr>
+						      <td>Nocležné:</td>
+						      <td></td>
+						    </tr>
+						    <tr>
+						      <td>15 let a více</td>
+						      <td>50 Kč</td>
+						    </tr>
+						    <tr>
+						      <td>6 - 15 let</td>
+						      <td>20 Kč</td>
+						    </tr>
+						    <tr>
+						      <td>do 6 let</td>
+						      <td>0 Kč</td>
+						    </tr>
+					            <tr>
+						      <td></td>
+						      <td></td>
+						    </tr>
+					            <tr>
+						      <td>Velké skupiny a tábory</td>
+						      <td>Cena dle dohody</td>
+						    </tr>
+						  </tbody>
+						</table>
+
+						<p>{{ price.medt2 }}</p>
+
+						<p class = "alert alert-danger"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> {{ price.medt3 }}<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span></p>
+
+						<p>{{ price.medt4 }} <a href="https://mapy.cz/s/ODmf" target="blank">mapy.cz</a>)</p>
+
+						<p><a href="cenik.pdf" class="icon icon-download" download> {{ price.dow }}</a></p>
+						<br>
+					</div>
+				</div><!-- /col -->
+			</div><!-- /row -->
+			<br>
+			<br>
+		</div><!-- /container -->
+
+
+<!-- =================================================== SECTION DIVIDER6 ==================================================================== -->
+		<section class="section-divider textdivider divider6">
+			<div class="container">
+				<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+			</div><!-- container -->
+		</section><!-- section -->
+<!-- =================================================== KONTAKT ==================================================================== -->
+		<div class="container" id="contact" name="contact">
+			<div class="row">
+			<br>
+				<h1 class="centered">{{ contact.h }}</h1>
+				<hr>
+				<br>
+				<br>
+				<div class="col-lg-4">
+					<h3>{{ contact.contact }}</h3>
+					{{ contact.info | raw }}
+				</div><!-- col -->
+
+				<div class="col-lg-4">
+					<h3>Napište nám</h3>
+					<p></p>
+					<p>
+						<form class="form-horizontal" role="form">
+						  <div class="form-group">
+						    <label for="inputEmail1" class="col-lg-4 control-label"></label>
+						    <div class="col-lg-10">
+						      <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="text1" class="col-lg-4 control-label"></label>
+						    <div class="col-lg-10">
+						      <input type="text" class="form-control" id="text1" placeholder="Vaše jméno">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="text2" class="col-lg-4 control-label"></label>
+						    <div class="col-lg-10">
+						      <textarea class="form-control" id="text2" placeholder="Zpráva"></textarea>
+					            </div>
+						  </div>
+						  <div class="form-group">
+						    <div class="col-lg-10">
+						      <button type="submit" class="btn btn-success">Odeslat</button>
+						    </div>
+						  </div>
+					   </form><!-- form -->
+					</p>
+				</div><!-- col -->
+
+				<div class="col-lg-4">
+					<h3>{{ contact.support }}</h3>
+					<p>{{ contact.supportT }}</p>
+				</div><!-- col -->
+
+			</div><!-- row -->
+
+		</div><!-- container -->
+
+		<div id="footerwrap">
+			<div class="container">
+				<h4>Těšíme se na Vaši návštěvu.</h4>
+			</div>
+		</div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/retina.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-func.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<configuration xmlns="http://logging.apache.org/log4php/">
+
+    <appender name="defaultAppender" class="LoggerAppenderFile">
+        <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value=" %date{Y-m-d H:i:s,u} %-5level [%logger:%L] %message %newline" />
+        </layout>
+        <param name="file" value="log/all.log" />
+        <param name="append" value="false" />
+    </appender>
+<!--
+    <appender name="errorAppender" class="LoggerAppenderFile">
+        <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%date{Y-m-d H:i:s,u} [%logger] %message%newline" />
+        </layout>
+        <param name="file" value="log/error.log" />
+        <param name="append" value="true" />
+    </appender>
+
+    <appender name="databaseAppender" class="LoggerAppenderRollingFile">
+        <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%date{Y-m-d H:i:s,u} [%logger] %message%newline" />
+        </layout>
+        <param name="file" value="log/database.log" />
+        <param name="maxBackupIndex" value="3" />
+    </appender>
+
+    <logger name="db">
+        <appender_ref ref="databaseAppender" />
+    </logger>
+
+    <logger name="error">
+        <level value="ERROR" />
+        <appender_ref ref="errorAppender" />
+    </logger>
+-->
+
+    <root>
+        <appender_ref ref="defaultAppender" />
+    </root>
+
+</configuration>

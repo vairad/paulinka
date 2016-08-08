@@ -1,0 +1,15 @@
+{
+    "name": "vairad/paulinka",
+    "description": "Web veřejného tábořiště Paulina louka",
+    "require": {
+        "twig/twig": "1.*",
+        "apache/log4php": "2.3.0",
+        "phpmailer/phpmailer": "5.2.*"
+    },
+    "authors": [
+        {
+            "name": "Radek Vais",
+            "email": "olie@skaut.cz"
+        }
+    ]
+}

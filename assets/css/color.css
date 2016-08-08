@@ -1,0 +1,54 @@
+/*
+ * Author: Radek VAIS
+ * 
+ * Project Name: Modify SHIELD - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * Date: 08-08-2016
+ * default template URL: http://blacktie.co/
+ */
+
+p{
+	text-align: justify;
+}
+
+a{
+	color:#4cae4c;
+}
+
+.modal-header{
+	background-color:#4cae4c;
+}
+
+.btn-primary{
+	color: #fff;
+	background-color:#4cae4c;
+	border-color: #398439;
+}
+
+.btn-primary:hover{
+	color: #fff;
+	background-color:#4cae4c;
+	border-color: #398439;
+}
+
+.btn-primary:active{
+	color: #fff;
+	background-color:#4cae4c;
+	border-color: #398439;
+}
+
+.btn-primary:focus{
+	color: #fff;
+	background-color:#4cae4c;
+	border-color: #398439;
+}
+
+
+.grid figcaption{
+	background-color:#4cae4c;
+}
+
+.form-control:focus {
+    border-color: #4cae4c;
+}
+
