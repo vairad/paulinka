@@ -20,7 +20,6 @@ global $data;
 $data = array();
 
 //preparation of arrays
-$data["data"] = array();
 $data["error"] = array();
 $data["success"] = array();
 
@@ -34,9 +33,15 @@ if(isset($_GET["lang"])){
     require_once("texts/cz.texts.php");
 }
 
-$logger->debug("Data START");
-$logger->debug($data);
-$logger->debug("Data END");
+if(isset($_POST["send"]) && $_POST["send"] == "poslat"){
+    $logger->debug("In SEND");
+    $logger->debug($_POST);
+    require_once ("send.php");
+}
+
+//$logger->debug("Data START");
+//$logger->debug($data);
+//$logger->debug("Data END");
 
 $logger->debug("Prepare twig template");
 
