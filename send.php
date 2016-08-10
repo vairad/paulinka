@@ -16,8 +16,10 @@ $mail = new PHPMailer;
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isMail();
+$mail->CharSet = 'UTF-8';
 
-$mail->setFrom($_POST["mail"].'', 'Webový automat');
+$mail->setFrom($_POST["mail"].'', 'Webový automat Paulina Louka');
+$mail->addAddress("paulina.louka@skaut.cz", 'Webový automat' );
 $mail->addAddress($_POST["mail"].'', $_POST["name"].'');     // Add a recipient
 
 $mail->isHTML(true);                                  // Set email format to HTML
