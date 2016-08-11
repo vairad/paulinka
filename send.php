@@ -18,7 +18,7 @@ $mail = new PHPMailer;
 $mail->isMail();
 $mail->CharSet = 'UTF-8';
 
-$mail->setFrom($_POST["mail"].'', 'Webový automat Paulina Louka');
+$mail->setFrom($_POST["mail"].'', $_POST["name"].'');
 $mail->addAddress("paulina.louka@skaut.cz", 'Webový automat' );
 $mail->addAddress($_POST["mail"].'', $_POST["name"].'');     // Add a recipient
 
@@ -30,7 +30,7 @@ $mail->AltBody =  $_POST["msg"].'';
 
 if(!$mail->send()) {
     $data["error"] = 'Zpráva nebyla odeslána';
-    $logger->debug('Mailer Error: ' . $mail->ErrorInfo);
+    $logger->error('Mailer Error: ' . $mail->ErrorInfo);
 } else {
     $data["success"] = "Zpráva byla odeslána.";
     $logger->debug('Mailer Success!');
