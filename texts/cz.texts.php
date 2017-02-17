@@ -52,7 +52,7 @@
 
     $data["meadow"]["h"] = "VEŘEJNÉ TÁBOŘIŠTĚ";
     $data["meadow"]["t1"] = "Během letních prázdnin je louka provozována jako veřejné tábořište. Tedy každý, kdo jde okolo má možnost se ubytovat. Na louce je většinou klid a vždy dostatek místa. Není překvapením, že je část louky využita pro konání táborů.";
-    $data["meadow"]["t2"] = "Na louce je návštěvníkům k&nbsp;dispozici základní vybavení: ohniště, suché záchody, umývárna, studna s&nbsp;vodou, odpadkové koše.";
+    $data["meadow"]["t2"] = "Na louce je návštěvníkům k&nbsp;dispozici základní vybavení: ohniště, toaleta, umývárna, studna s&nbsp;vodou, odpadkové koše.";
     $data["meadow"]["t3"] = "Na louku je zakázán vjezd motorových vozidel, což přispívá k&nbsp;přírodnímu kouzlu Pauliny louky.";
     $data["meadow"]["title"] = "Louka";
 
@@ -72,9 +72,9 @@
 
 
     $data["price"]["medh"] = "Veřejné tábořiště";
-    $data["price"]["medt1"] = "Široké veřejnosti je tábořiště Paulina louka k&nbsp;dispozici v&nbsp;letních měsících. Na tábořišti je možné postavit stan, rozdělat oheň, k&nbsp;dispozici je suché WC a jednoduchá umývárna.";
+    $data["price"]["medt1"] = "Široké veřejnosti je tábořiště Paulina louka k&nbsp;dispozici v&nbsp;letních měsících. Na tábořišti je možné postavit stan, rozdělat oheň, k&nbsp;dispozici je toaleta a jednoduchá umývárna.";
 
-    $data["price"]["medt2"] = "Poplatky jsou kalkulovány na jednu noc a je v&nbsp;nich zahrnuto použití zařízení tábořiště, tj. pitné vody, WC, umývárny, odvoz odpadů a rekreační poplatek MěÚ Rejštejn.";
+    $data["price"]["medt2"] = "Poplatky jsou kalkulovány na jednu noc a je v&nbsp;nich zahrnuto použití zařízení tábořiště, tj. pitné vody, toalet, umývárny, odvoz odpadů a rekreační poplatek MěÚ Rejštejn.";
     $data["price"]["medt3"] = "Na tábořišti nesmí parkovat motorová vozidla ";
     $data["price"]["medt4"] = "K&nbsp;parkování je možné využít parkoviště pod Dračí skalou. (viz";
 
@@ -100,6 +100,7 @@ $data["contact"]["h"] = "KONTAKT";
 $data["contact"]["contact"]="Kontaktní informace";
 $data["contact"]["info"] = "<p>	Junák - český skaut, středisko 5. květen Plzeň,z. s.<br/>
 						IČ: 49 77 79 71 <br/>
+						Č.j.: MČ P7 028783/2016/OŽV/Pey <br/>
 						<span class=\"icon icon-home\"></span> Americká 29, Plzeň<br/>
 						<!--<span class=\"icon icon-phone\"></span> +34 9884 4893 <br/>-->
 						<!--<span class=\"icon icon-mobile\"></span> +34 59855 9853 <br/> -->
