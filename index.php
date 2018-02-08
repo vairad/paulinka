@@ -26,7 +26,7 @@ $data["success"] = array();
 if(isset($_GET["lang"])){
     switch($_GET["lang"]){
         case "cz": require_once("texts/cz.texts.php");break;
-      //  case "en": require("texts/en.texts.php");break;
+        case "en": require("texts/en.texts.php");break;
         default : require_once("texts/cz.texts.php");
     }
 }else{

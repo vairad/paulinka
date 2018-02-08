@@ -1,3 +1,8 @@
+// Description: Czech translation
+// Author:  Radek Vais
+// Version: 2017 
+//
+////////////////////////////////////////////////
 <?php
     global $data;
 
