@@ -28,26 +28,26 @@
 
 //======================================================================================================================
 
-    $data["intro"]["h1"] = "It's a&nbsp; place for campers";
-    $data["intro"]["t1"] = "In the summer, there is a&nbsp; nice camp site, off season you can rent the log cabin.";
+    $data["intro"]["h1"] = "It's a&nbsp;place for campers";
+    $data["intro"]["t1"] = "In the summer, there is a&nbsp;nice camp site, off season you can rent the log cabin.";
 
-    $data["intro"]["h2"] = "It's a&nbsp; place for explorers";
+    $data["intro"]["h2"] = "It's a&nbsp;place for explorers";
     $data["intro"]["t2"] = "Situated in the heart of the National Park Šumava, the camp site is surrounded by beautiful nature. In the surrounding forests, you can find remnants and traces of the pre-WWII villages.";
 
-    $data["intro"]["h3"] = "It's a&nbsp; place for poetic souls";
-    $data["intro"]["t3"] = "The meadow is hidden in a&nbsp; deep canyon of the Otava river on the site of a&nbsp; former timber rafting station. You can still experience the excitement of first gold hunters and timber rafters at the banks of the sparkling river.";
+    $data["intro"]["h3"] = "It's a&nbsp;place for poetic souls";
+    $data["intro"]["t3"] = "The meadow is hidden in a&nbsp;deep canyon of the Otava river on the site of a&nbsp;former timber rafting station. You can still experience the excitement of first gold hunters and timber rafters at the banks of the sparkling river.";
 
 //======================================================================================================================
 
     $data["about"]["h"] = "About us";
-    $data["about"]["t1"] = "We are a&nbsp; scout group from Pilsen, who take care of this beatiful piece of land in harmony with nature. We scythe the whole meadow every year, as otherwise it would completely disappear in just a few years.";
+    $data["about"]["t1"] = "We are a&nbsp;scout group from Pilsen, who take care of this beatiful piece of land in harmony with nature. We scythe the whole meadow every year, as otherwise it would completely disappear in just a few years.";
     $data["about"]["t2"] = "In the summer, we offer the possibility of camping on the meadow in the centre of the national park and off season you can rent our romantic log cabin.";
 
 //===============================================
 
     $data["cottage"]["h"] = "LOG CABIN";
-    $data["cottage"]["t1"] = "There is a&nbsp; log cabin, which serves as accommodation for the camp administrator in the summer and off season it can be rented for 1-12 people.";
-    $data["cottage"]["t2"] = "The log cabin is equipped with a&nbsp; kitchenette, wood burning stove, small gas stove, gas lamp and candles for lighting. There is no electricity. For sleeping, there are two single beds and a&nbsp; wide bunk bed (comfortable for 6 adults) or space for sleeping pads on the floor. The log cabin is an amazing base for hiking and cross-country skiing in the national park and early spring kayaking on the Otava river.
+    $data["cottage"]["t1"] = "There is a&nbsp;log cabin, which serves as accommodation for the camp administrator in the summer and off season it can be rented for 1-12 people.";
+    $data["cottage"]["t2"] = "The log cabin is equipped with a&nbsp;kitchenette, wood burning stove, small gas stove, gas lamp and candles for lighting. There is no electricity. For sleeping, there are two single beds and a&nbsp;wide bunk bed (comfortable for 6 adults) or space for sleeping pads on the floor. The log cabin is an amazing base for hiking and cross-country skiing in the national park and early spring kayaking on the Otava river.";
     $data["cottage"]["out"] = "Log cabin exterior ";
     $data["cottage"]["in"] = "Log cabin interior";
 
@@ -56,9 +56,9 @@
 //===============================================
 
     $data["meadow"]["h"] = "Camp site";
-    $data["meadow"]["t1"] = "During the summer holidays, the meadow serves as a&nbsp; camp site. It's a&nbsp; quiet, never crowded place, always with enough space for a&nbsp; new visitor. Not surprisingly, a&nbsp; part of the meadow is used for summer scout camps.";
-    $data["meadow"]["t2"] = "The camp site offers basic facilities: fireplaces, toilets, washing facilities (shower with a&nbsp; wood burning stove), water well, dust bins.";
-    $data["meadow"]["t3"] = "Parking of motor vehicles is not allowed on the meadow, which contributes to the natural magic of the place. Parking lot is available approx. 500&nbsp; m from the camp site.";
+    $data["meadow"]["t1"] = "During the summer holidays, the meadow serves as a&nbsp;camp site. It's a&nbsp;quiet, never crowded place, always with enough space for a&nbsp;new visitor. Not surprisingly, a&nbsp;part of the meadow is used for summer scout camps.";
+    $data["meadow"]["t2"] = "The camp site offers basic facilities: fireplaces, toilets, washing facilities (shower with a&nbsp;wood burning stove), water well, dust bins.";
+    $data["meadow"]["t3"] = "Parking of motor vehicles is not allowed on the meadow, which contributes to the natural magic of the place. Parking lot is available approx. 500&nbsp;m from the camp site.";
     $data["meadow"]["title"] = "Meadow";
 
 
@@ -77,11 +77,11 @@
 
 
     $data["price"]["medh"] = "Camp site";
-    $data["price"]["medt1"] = "The camp site Paulina Louka is available in the summer season (July/August). You can build a&nbsp; tent and make fire, there is a&nbsp; simple toilet and washing facilities (shower with a&nbsp; wood burning stove).";
+    $data["price"]["medt1"] = "The camp site Paulina Louka is available in the summer season (July/August). You can build a&nbsp;tent and make fire, there is a&nbsp;simple toilet and washing facilities (shower with a&nbsp;wood burning stove).";
 
-    $data["price"]["medt2"] = "The price for one night includes: usage of the camp site facilities, ie. drinking water, toilets, washing facilities, garbage disposal, local fee for a&nbsp; recreational stay to the district authorities.";
+    $data["price"]["medt2"] = "The price for one night includes: usage of the camp site facilities, ie. drinking water, toilets, washing facilities, garbage disposal, local fee for a&nbsp;recreational stay to the district authorities.";
     $data["price"]["medt3"] = "Parking of motor vehicles is forbidden on the camp site.";
-    $data["price"]["medt4"] = "For parking you vehicle, you can use a&nbsp; nearby parking lot, ca. 500&nbsp; m away.";
+    $data["price"]["medt4"] = "For parking you vehicle, you can use a&nbsp;nearby parking lot, ca. 500&nbsp;m away.";
 
 
     $data["price"]["price"] = "Price list";
