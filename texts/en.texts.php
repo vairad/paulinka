@@ -1,9 +1,9 @@
-﻿// Description: English translation
+﻿<?php
+// Description: English translation
 // Author:  Kristýna Hoblová
 // Version: 4.1.2018 
 //
 ////////////////////////////////////////////////
-<?php
     global $data;
 
     $data["menu"] = array();
