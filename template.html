@@ -46,20 +46,20 @@
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon icon-menu" style="font-size:30px; color:#4cae4c;"></span>
           </button>
-          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="icon icon-home" style="font-size:18px; color:#4cae4c;"></span></a>
+          <a class="navbar-brand hidden-xs hidden-sm" href="#headerwrap"><span class="icon icon-home" style="font-size:18px; color:#4cae4c;"></span></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#home" class="smoothScroll" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.intro | raw }}</a></li>
-			<li> <a href="#contact" class="smoothScroll" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.contact | raw }}</a></li>
+            <li><a href="#headerwrap" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.intro | raw }}</a></li>
+			<li> <a href="#contact" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.contact | raw }}</a></li>
 
-			<li> <a href="#srub" class="smoothScroll" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.cottage | raw }}</a></li>
-			<li> <a href="#louka" class="smoothScroll" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.meadow | raw }}</a></li>
+			<li> <a href="#srub" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.cottage | raw }}</a></li>
+			<li> <a href="#louka" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.meadow | raw }}</a></li>
 
-			<li> <a href="#ceny" class="smoothScroll" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.price | raw }}</a></li>
+			<li> <a href="#ceny" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.price | raw }}</a></li>
 
-			<li> <a href="#okoli" class="smoothScroll" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.around | raw }}</a></li>
-			<li> <a href="#about" class="smoothScroll" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.about | raw }}</a></li>
+			<li> <a href="#okoli" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.around | raw }}</a></li>
+			<li> <a href="#about" data-toggle="collapse" data-target=".navbar-collapse">{{ menu.about | raw }}</a></li>
 
 	  </ul>
         </div><!--/.nav-collapse -->
@@ -70,7 +70,7 @@
 
 
 		<!-- ==== HEADERWRAP ==== -->
-	    <div id="headerwrap" id="home" name="home">
+	    <div id="headerwrap" name="home">
 			<header class="clearfix">
 	  		 		<h1>{{ name | raw }}</h1>
 	  		 		<p>{{ subheader | raw }}</p>
