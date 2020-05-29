@@ -23,6 +23,8 @@ $data = array();
 $data["error"] = array();
 $data["success"] = array();
 
+require_once ("version.php");
+
 if(isset($_GET["lang"])){
     $logger->debug("Localization set");
     switch($_GET["lang"]){
