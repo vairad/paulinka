@@ -26,6 +26,8 @@
     $data["menu"]["price"] = "Ceny";
     $data["menu"]["around"] = "Okolí";
     $data["menu"]["about"] = "O&nbsp;nás";
+    $data["menu"]["lang"] = "English";
+    $data["menu"]["langCode"] = "en";
 
 //======================================================================================================================
 

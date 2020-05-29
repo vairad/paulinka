@@ -25,6 +25,8 @@
     $data["menu"]["price"] = "Price list";
     $data["menu"]["around"] = "Local area";
     $data["menu"]["about"] = "About us";
+    $data["menu"]["lang"] = "Česky";
+    $data["menu"]["langCode"] = "cz";
 
 //======================================================================================================================
 

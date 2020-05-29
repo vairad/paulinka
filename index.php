@@ -24,9 +24,16 @@ $data["error"] = array();
 $data["success"] = array();
 
 if(isset($_GET["lang"])){
+    $logger->debug("Localization set");
     switch($_GET["lang"]){
-        case "cz": require_once("texts/cz.texts.php");break;
-        case "en": require("texts/en.texts.php");break;
+        case "cz":
+            require_once("texts/cz.texts.php");
+            $logger->debug("Czech localization");
+            break;
+        case "en":
+            require("texts/en.texts.php");
+            $logger->debug("English localization");
+            break;
         default : require_once("texts/cz.texts.php");
     }
 }else{
