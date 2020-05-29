@@ -65,7 +65,6 @@
 
 //===============================================
     $data["around"]["h"] = "OKOLÍ";
-    //todo popisy do angličtiny
 //===============================================
 
     $data["price"]["h"] = "CENY";
@@ -80,7 +79,7 @@
     $data["price"]["medh"] = "Veřejné tábořiště";
     $data["price"]["medt1"] = "Široké veřejnosti je tábořiště Paulina louka k&nbsp;dispozici v&nbsp;letních měsících. Na tábořišti je možné postavit stan, rozdělat oheň, k&nbsp;dispozici je toaleta a jednoduchá umývárna.";
 
-    $data["price"]["medt2"] = "Poplatky jsou kalkulovány na jednu noc a je v&nbsp;nich zahrnuto použití zařízení tábořiště, tj. pitné vody, toalet, umývárny, odvoz odpadů a rekreační poplatek MěÚ Rejštejn.";
+    $data["price"]["medt2"] = "Poplatky jsou kalkulovány na jednu noc a je v&nbsp;nich zahrnuto použití zařízení tábořiště, tj. pitné vody, toalet, umývárny, odvoz odpadů.";
     $data["price"]["medt3"] = "Na tábořišti nesmí parkovat motorová vozidla ";
     $data["price"]["medt4"] = "K&nbsp;parkování je možné využít parkoviště pod Dračí skalou. (viz";
 
@@ -94,8 +93,14 @@
     $data["price"]["cur"] = "Kč";
 
 
-
-
+    $data["price"]["tax"]["inText"] = "ubytovací poplatek";
+    $data["price"]["tax"]["title"] = "Ubytovací poplatek";
+    $data["price"]["tax"]["text"] = "Město Rejštejn vyhláškou č. 1/2020 zavádí místní poplatek z pobytu ve výši <strong>20Kč/den</strong> vyjma dne příjezdu. Plátcem poplatku jsou všechny osoby starší 18-ti let.";
+    $data["price"]["tax"]["exception"] = "Výjimky:";
+    $data["price"]["tax"]["exceptions"][0] = "nevidomí, ZTP/P a jejich průvodci";
+    $data["price"]["tax"]["exceptions"][2] = "pečující o děti na zotavovací akci nebo jiné podobné akci pro děti";
+    $data["price"]["tax"]["exceptions"][3] = "příslušníci bezpečnostních sborů v činné službě";
+    $data["price"]["tax"]["exceptions"][3] = "další specifické podmínky jsou uvedeny ve vyhlášce (zpravidla se netýkají návštěv tábořiště)";
 
     //todo ceny měnitelné z webu
 //===============================================
@@ -107,6 +112,7 @@ $data["contact"]["contact"]="Kontaktní informace";
 $data["contact"]["info"] = "<p>	Junák - český skaut, středisko 5. květen Plzeň,z. s.<br/>
 						IČ: 49 77 79 71 <br/>
 						Č.j.: MČ P7 028783/2016/OŽV/Pey <br/>
+						Datová schránka: ypnq4k4 <br/>
 						<span class=\"icon icon-home\"></span> Americká 29, Plzeň<br/>
 						<!--<span class=\"icon icon-phone\"></span> +34 9884 4893 <br/>-->
 						<!--<span class=\"icon icon-mobile\"></span> +34 59855 9853 <br/> -->

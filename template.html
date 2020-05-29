@@ -578,11 +578,10 @@
 
 
 						<h4>duben - říjen</h4>
-						<p>200,- {{ price.cur | raw }} srub/noc + 60{{ price.cur | raw }} osoba/noc</p>
+						<p>200,- {{ price.cur | raw }} srub/noc + 60{{ price.cur | raw }} osoba/noc + {{ price.tax.inText}}</p>
 						<h4>listopad - březen</h4>
-						<p>300,- {{ price.cur | raw }} srub/noc + 60{{ price.cur | raw }} osoba/noc</p>
+						<p>300,- {{ price.cur | raw }} srub/noc + 60{{ price.cur | raw }} osoba/noc + {{ price.tax.inText}} </p>
 
-						<p><a href="cenik.pdf" class="icon icon-download" download> {{ price.dow | raw }}</a></p>
 						<br>
 					</div>
 				</div><!-- /col -->
@@ -616,7 +615,7 @@
 						    </tr>
 						    <tr>
 						      <td>15 let a více</td>
-						      <td>50 {{ price.cur | raw }}</td>
+						      <td>50 {{ price.cur | raw }} + {{ price.tax.inText}}</td>
 						    </tr>
 						    <tr>
 						      <td>6 - 15 let</td>
@@ -643,7 +642,21 @@
 
 						<p>{{ price.medt4 | raw }} <a href="https://mapy.cz/s/ODmf" target="blank">mapy.cz</a>)</p>
 
-						<p><a href="cenik.pdf" class="icon icon-download" download> {{ price.dow | raw }}</a></p>
+						<br>
+					</div>
+				</div><!-- /col -->
+				
+				<div class="col-sm-12 ceny-bg">
+					<div class="col-lg-12 ceny-content">
+						<h2>{{ price.tax.title | raw }}</h2>
+						<p> {{ price.tax.text | raw }}</p>
+						
+						<p> {{ price.tax.exception | raw }}</p>
+						<ul>
+							{% for exception in price.tax.exceptions %}
+								<li>{{ exception | raw }}</li>
+							{% endfor %}
+						</ul>
 						<br>
 					</div>
 				</div><!-- /col -->

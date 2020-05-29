@@ -64,7 +64,6 @@
 
 //===============================================
     $data["around"]["h"] = "Local area";
-    //todo popisy do angličtiny
 //===============================================
 
     $data["price"]["h"] = "Price list";
@@ -92,6 +91,13 @@
 
     $data["price"]["cur"] = "Kč";
 
+    $data["price"]["tax"]["inText"] = "accomodation tax";
+    $data["price"]["tax"]["title"] = "Accomodation tax";
+    $data["price"]["tax"]["text"] = "Municipality Rejštejn by decree č. 1/2020 introduces local residence fee: <strong>20Kč/day</strong> excludes day of arrival. All persons over the age of 18 are paying the fee.";
+    $data["price"]["tax"]["exception"] = "Excludes:";
+    $data["price"]["tax"]["exceptions"][0] = "blinds, disabled and their guides";
+    $data["price"]["tax"]["exceptions"][2] = "caring for children at a recovery or other similar event for children ";
+    $data["price"]["tax"]["exceptions"][3] = "another specific conditions defined by decree";
 
 
 
@@ -106,6 +112,7 @@ $data["contact"]["contact"]="Contact information";
 $data["contact"]["info"] = "<p>	Junák - český skaut, středisko 5. květen Plzeň,z. s.<br/>
 						IČ: 49 77 79 71 <br/>
 						Č.j.: MČ P7 028783/2016/OŽV/Pey <br/>
+                        Datová schránka: ypnq4k4 <br/>
 						<span class=\"icon icon-home\"></span> Americká 29, Plzeň<br/>
 						<!--<span class=\"icon icon-phone\"></span> +34 9884 4893 <br/>-->
 						<!--<span class=\"icon icon-mobile\"></span> +34 59855 9853 <br/> -->
