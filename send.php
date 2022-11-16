@@ -38,13 +38,13 @@ try {
     $mail->Body    =  $_POST["msg"].'';
     $mail->AltBody =  $_POST["msg"].'';
 
-    if(!$mail->send()) {
-        $data["error"] = 'Zpráva nebyla odeslána';
-        $logger->error('Mailer Error: ' . $mail->ErrorInfo);
-    } else {
-        $data["success"] = "Zpráva byla odeslána.";
-        $logger->debug('Mailer Success!');
-    }
+ //   if(!$mail->send()) {
+//        $data["error"] = 'Zpráva nebyla odeslána';
+//        $logger->error('Mailer Error: ' . $mail->ErrorInfo);
+//    } else {
+//        $data["success"] = "Zpráva byla odeslána.";
+//        $logger->debug('Mailer Success!');
+//    }
 
 } catch (Exception $e) {
     $data["error"] = 'Zpráva nebyla odeslána';

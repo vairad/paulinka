@@ -642,8 +642,8 @@
                 <h2>{{ price.coth | raw }}</h2>
                 <p>{{ price.cott1 | raw }}</p>
                 <p>{{ price.cott2 | raw }}</p>
-                <p class="alert alert-danger"><span class="glyphicon glyphicon-exclamation-sign"
-                                                    aria-hidden="true"></span> Aktuálně není možné srub rezervovat v termínech po letních prázdninách (září a dál).<span
+                <p class="alert alert-danger"><span class="glyphicon glyphicon-exclamation-sign" 
+				    aria-hidden="true"></span> Aktuálně není možné srub rezervovat v termínech po letních prázdninách (září a dál).<span
                         class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span></p>
                 <p><a data-toggle="modal" href="#obsazenost" class="btn btn-success btn-lg icon icon-calendar"> {{
                     cottage.full | raw }}</a></p>
@@ -788,36 +788,35 @@
 
         <div class="col-lg-4">
             <h3>{{ contact.send | raw }}</h3>
-            <p></p>
+            <p class="alert alert-info">paulina.louka@skaut.cz</p>
             <p>
             <form class="form-horizontal" role="form" method="post">
                 <div class="form-group">
                     <label for="inputEmail1" class="col-lg-4 control-label"></label>
                     <div class="col-lg-10">
-                        <input type="email" class="form-control" id="inputEmail1" name="mail"
+                        <input disabled="true" type="email" class="form-control" id="inputEmail1" name="mail"
                                placeholder="{{ contact.sendEmail | raw }}">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="text1" class="col-lg-4 control-label"></label>
                     <div class="col-lg-10">
-                        <input type="text" class="form-control" id="text1" name="name"
+                        <input disabled="true" type="text" class="form-control" id="text1" name="name"
                                placeholder="{{ contact.sendName | raw }}">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="text2" class="col-lg-4 control-label"></label>
                     <div class="col-lg-10">
-                        <textarea class="form-control" id="text2" name="msg"
+                        <textarea disabled="true" class="form-control" id="text2" name="msg"
                                   placeholder="{{ contact.sendMsg | raw }}"></textarea>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-lg-10">
-                        <button type="submit" class="btn btn-success late-enable" disabled="true">{{ contact.sendSend | raw }}</button>
+                        <button type="submit" class="btn btn-success" disabled="true">{{ contact.sendSend | raw }}</button>
                     </div>
                 </div>
-                <input type="hidden" name="send" value="poslat"/>
             </form><!-- form -->
             </p>
         </div><!-- col -->
