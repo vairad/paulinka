@@ -8,6 +8,15 @@
  * URL: http://blacktie.co/
  */
 
+/*HOTFIX*/
+
+#ceny {
+	display: none;
+}
+
+.divider4 {
+	display: none;
+}
 
 /* ==========================================================================
    Base Styles and Bootstrap Modifications

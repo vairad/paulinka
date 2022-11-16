@@ -11,6 +11,7 @@
 
     $data["name"] = "Paulina louka";
     $data["subheader"] = "srub a veřejné tábořiště";
+    $data["subsubheader"] = "Uzavřeno!";
 
     $data["close"] = "Zavřít";
     $data["more"] = "Více";

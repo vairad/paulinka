@@ -10,6 +10,7 @@
 
     $data["name"] = "Paulina louka";
     $data["subheader"] = "log cabin and camp site";
+    $data["subsubheader"] = "Out of service!";
 
     $data["close"] = "Close";
     $data["more"] = "See more";
